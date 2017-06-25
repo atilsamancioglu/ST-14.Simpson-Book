@@ -12,6 +12,13 @@
 		FC12172E1EF68CBE00EAA28E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC12172C1EF68CBE00EAA28E /* Main.storyboard */; };
 		FC1217301EF68CBE00EAA28E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC12172F1EF68CBE00EAA28E /* Assets.xcassets */; };
 		FC1217331EF68CBE00EAA28E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1217311EF68CBE00EAA28E /* LaunchScreen.storyboard */; };
+		FC12173B1EF68D8200EAA28E /* detailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC12173A1EF68D8200EAA28E /* detailsVC.swift */; };
+		FC1217411EF68F7300EAA28E /* bart.png in Resources */ = {isa = PBXBuildFile; fileRef = FC12173C1EF68F7200EAA28E /* bart.png */; };
+		FC1217421EF68F7300EAA28E /* lisa.png in Resources */ = {isa = PBXBuildFile; fileRef = FC12173D1EF68F7200EAA28E /* lisa.png */; };
+		FC1217431EF68F7300EAA28E /* maggie.png in Resources */ = {isa = PBXBuildFile; fileRef = FC12173E1EF68F7300EAA28E /* maggie.png */; };
+		FC1217441EF68F7300EAA28E /* marge.png in Resources */ = {isa = PBXBuildFile; fileRef = FC12173F1EF68F7300EAA28E /* marge.png */; };
+		FC1217451EF68F7300EAA28E /* homer.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1217401EF68F7300EAA28E /* homer.png */; };
+		FC1217481EF68FDA00EAA28E /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1217471EF68FDA00EAA28E /* Simpson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		FC12172F1EF68CBE00EAA28E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC1217321EF68CBE00EAA28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC1217341EF68CBE00EAA28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC12173A1EF68D8200EAA28E /* detailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsVC.swift; sourceTree = "<group>"; };
+		FC12173C1EF68F7200EAA28E /* bart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bart.png; sourceTree = "<group>"; };
+		FC12173D1EF68F7200EAA28E /* lisa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lisa.png; sourceTree = "<group>"; };
+		FC12173E1EF68F7300EAA28E /* maggie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maggie.png; sourceTree = "<group>"; };
+		FC12173F1EF68F7300EAA28E /* marge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marge.png; sourceTree = "<group>"; };
+		FC1217401EF68F7300EAA28E /* homer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homer.png; sourceTree = "<group>"; };
+		FC1217471EF68FDA00EAA28E /* Simpson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,29 @@
 		FC1217271EF68CBE00EAA28E /* Simpson Book */ = {
 			isa = PBXGroup;
 			children = (
+				FC1217461EF68F7A00EAA28E /* images */,
 				FC1217281EF68CBE00EAA28E /* AppDelegate.swift */,
 				FC12172A1EF68CBE00EAA28E /* ViewController.swift */,
+				FC12173A1EF68D8200EAA28E /* detailsVC.swift */,
+				FC1217471EF68FDA00EAA28E /* Simpson.swift */,
 				FC12172C1EF68CBE00EAA28E /* Main.storyboard */,
 				FC12172F1EF68CBE00EAA28E /* Assets.xcassets */,
 				FC1217311EF68CBE00EAA28E /* LaunchScreen.storyboard */,
 				FC1217341EF68CBE00EAA28E /* Info.plist */,
 			);
 			path = "Simpson Book";
+			sourceTree = "<group>";
+		};
+		FC1217461EF68F7A00EAA28E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FC12173C1EF68F7200EAA28E /* bart.png */,
+				FC1217401EF68F7300EAA28E /* homer.png */,
+				FC12173D1EF68F7200EAA28E /* lisa.png */,
+				FC12173E1EF68F7300EAA28E /* maggie.png */,
+				FC12173F1EF68F7300EAA28E /* marge.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +151,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1217411EF68F7300EAA28E /* bart.png in Resources */,
+				FC1217441EF68F7300EAA28E /* marge.png in Resources */,
+				FC1217431EF68F7300EAA28E /* maggie.png in Resources */,
+				FC1217421EF68F7300EAA28E /* lisa.png in Resources */,
 				FC1217331EF68CBE00EAA28E /* LaunchScreen.storyboard in Resources */,
 				FC1217301EF68CBE00EAA28E /* Assets.xcassets in Resources */,
 				FC12172E1EF68CBE00EAA28E /* Main.storyboard in Resources */,
+				FC1217451EF68F7300EAA28E /* homer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +170,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC12172B1EF68CBE00EAA28E /* ViewController.swift in Sources */,
+				FC1217481EF68FDA00EAA28E /* Simpson.swift in Sources */,
+				FC12173B1EF68D8200EAA28E /* detailsVC.swift in Sources */,
 				FC1217291EF68CBE00EAA28E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
